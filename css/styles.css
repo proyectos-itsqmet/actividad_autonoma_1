@@ -1,0 +1,22 @@
+.appTitle {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.hoverExpand .hoverNumero,
+.hoverExpand .hoverNumeroReverse,
+.hoverExpand .hoverText {
+  transition: all 0.3s;
+}
+
+.hoverExpand:hover .hoverNumero {
+  transform: rotate(-25deg);
+}
+
+.hoverExpand:hover .hoverNumeroReverse {
+  transform: rotate(25deg);
+}
+
+.hoverExpand:hover .hoverText {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
